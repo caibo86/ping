@@ -12,11 +12,10 @@ ping [options] &lt;destination&gt;
 
 Options:
 
--h              print help and exit
-
--w  &lt;timeout&gt; time to wait for response
-
--s  &lt;size&gt;	use &lt;size&gt; as number of data bytes to be sent
-
--c  &lt;count&gt;	stop after &lt;count&gt; packets sent
+| args | value           | desc                                                |
+|------|-----------------|-----------------------------------------------------|
+| -h   |                 | print help and exit                                 |
+| -w   | &lt;timeout&gt; | time to wait for response                           |
+| -s   | &lt;size&gt;	   | use &lt;size&gt; as number of data bytes to be sent |
+| -c   | &lt;count&gt;	  | stop after &lt;count&gt; packets sent               |
 
