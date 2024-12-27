@@ -10,7 +10,7 @@ go build -o ping main.go
 
 Usage
 
-ping [options] <destination>
+ping [options] &lt;destination&gt;
 
 
 Options:
