@@ -7,9 +7,6 @@ go build -o ping main.go
 ```
 
 ## Usage
-
-Usage
-
 ping [options] &lt;destination&gt;
 
 
@@ -17,9 +14,9 @@ Options:
 
 -h		print help and exit
 
--w <timeout>	time to wait for response
+-w &lt;timeout&gt;	time to wait for response
 
--s <size>	use <size> as number of data bytes to be sent
+-s &lt;size&gt;	use &lt;size&gt; as number of data bytes to be sent
 
--c <count>	stop after <count> packets sent
+-c &lt;count&gt;	stop after &lt;count&gt; packets sent
 
